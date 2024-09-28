@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto web HTML</title>
+    <link rel="stylesheet" href="../Proyecto Web HTML/css/styles.css">
+</head>
+
+<body>
+
+    <!-- menu de inicio -->
+    <header class="header">
+        <div class="menu container">
+
+            <a href="#" class="logo">PELIS PELIS</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="../Proyecto Web HTML/imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+
+                <!-- menus principales -->
+
+                <ul>
+                    <li> <a href="#">Inicio</a></li>
+                    <li> <a href="#">Nosotros</a></li>
+                    <li> <a href="#">Peliculas</a></li>
+                    <li> <a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-1">Login</a>
+        </div>
+
+        <div class="header-content container">
+
+            <!-- imagen de fondo parte de arriba -->
+            <div class="header-1">
+                <img src="../Proyecto Web HTML/imagenes/venom.png" alt="">
+                <a href="#" class="btn-2">Ver Ahora</a>
+            </div>
+
+            <!-- imagen de -->
+            <div class="header-2">
+                <h1>Las Mejores <br>Peliculas</h1>
+                <img src="../Proyecto Web HTML/imagenes/play.png" alt="">
+            </div>
+
+        </div>
+        
+    </header>
+
+    <section class="movies container">
+        <h2>Peliculas mas Vistas</h2>
+        <hr>
+
+        <div class="box-container-1">
+
+            <!-- Imagenes de peliculas -->
+
+            <div class="box-1">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/1.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/2.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+            <div class="box-1">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/3.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-1">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/4.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-1">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/5.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-1">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/6.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-1">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/7.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-1">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/8.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="load-more" id="load-more-1">Cargar mas</div>
+
+    </section>
+
+    <section class="movies container">
+        <h2>Peliculas de Accion</h2>
+        <hr>
+
+        <div class="box-container-2">
+
+            <div class="box-2">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/9.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/10.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/11.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-2">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/12.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-2">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/13.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-2">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/14.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-2">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/15.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-2">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/16.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="load-more" id="load-more-2">Cargar mas</div>
+
+    </section>
+
+    <section class="movies container">
+        <h2>Peliculas de Estreno</h2>
+        <hr>
+
+        <div class="box-container-3">
+
+            <div class="box-3">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/17.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-3">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/18.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-3">
+                <div class="content">
+                    <img src="../Proyecto Web HTML/imagenes/19.jpg" alt="">
+                    <h3>Pelicula HD</h3>
+                    <p>
+                        <!-- texto de relleno sobre la pelicula -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-3">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/20.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-3">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/21.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-3">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/22.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-3">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/23.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+
+            <div class="box-3">
+                    <div class="content">
+                        <img src="../Proyecto Web HTML/imagenes/24.jpg" alt="">
+                        <h3>Pelicula HD</h3>
+                        <p>
+                            <!-- texto de relleno sobre la pelicula -->
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="load-more" id="load-more-3">Cargar mas</div>
+
+    </section>
+
+    <footer class="footer container">
+        <h3>
+            Cinemexican
+        </h3>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotors</a></li>
+            <li><a href="#">Peliculas</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+    </footer>
+    
+    <script src="../Proyecto Web HTML/java/script.js"></script>
+</body>
+</html>
